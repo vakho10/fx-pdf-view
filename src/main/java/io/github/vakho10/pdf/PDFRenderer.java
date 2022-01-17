@@ -1,4 +1,4 @@
-package com.github.vakho10.pdf;
+package io.github.vakho10.pdf;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.PageDrawerParameters;

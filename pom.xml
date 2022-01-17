@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.vakho10</groupId>
-    <artifactId>pdf-view</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>io.github.vakho10</groupId>
+    <artifactId>fx-pdf-view</artifactId>
+    <version>1.0.0</version>
     <name>PDFView</name>
     <description>PDF viewer component for JavaFX application</description>
     <url>https://github.com/vakho10/fx-pdf-view</url>
@@ -33,7 +33,7 @@
         <developer>
             <name>Vakhtangi Laluashvili</name>
             <email>vakho10@gmail.com</email>
-            <organization>com.github.vakho10</organization>
+            <organization>io.github.vakho10</organization>
             <organizationUrl>https://github.com/vakho10</organizationUrl>
         </developer>
     </developers>
@@ -153,10 +153,10 @@
                         <goals>
                             <goal>sign</goal>
                         </goals>
-<!--                        <configuration>-->
-<!--                            <keyname>${gpg.keyname}</keyname>-->
-<!--                            <passphraseServerId>${gpg.keyname}</passphraseServerId>-->
-<!--                        </configuration>-->
+                        <configuration>
+                            <keyname>${gpg.keyname}</keyname>
+                            <passphraseServerId>${gpg.keyname}</passphraseServerId>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>

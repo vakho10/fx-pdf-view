@@ -1,4 +1,4 @@
-package com.github.vakho10.pdf;
+package io.github.vakho10.pdf;
 
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.ObjectProperty;

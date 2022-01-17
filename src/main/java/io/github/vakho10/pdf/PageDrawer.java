@@ -1,4 +1,4 @@
-package com.github.vakho10.pdf;
+package io.github.vakho10.pdf;
 
 import org.apache.pdfbox.pdmodel.graphics.color.PDColor;
 import org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation;
